@@ -1,4 +1,4 @@
-# SETUP.md - Tools & Setup Guide
+# Tools & Setup Guide
 
 This guide goes over how to setup your environment for the Chisel Mini-lab. 
 
