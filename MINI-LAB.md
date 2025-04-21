@@ -1,4 +1,4 @@
-# IT 359 Chisel Mini-Lab
+# Chisel Mini-Lab
 In this lab, you will be learning about the Chisel tool and executing different exercises in scenarios where Chisel tunneling can be used. The objectives of this lab include: 
 - [Understanding how Chisel Works](#introduction-to-chisel)
 - [Understanding Local Port Forwarding](#local-port-forwarding)
