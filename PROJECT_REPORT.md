@@ -1,4 +1,4 @@
-# IT 359 Chisel Project Report
+# Project Report
 **Course**: IT 359 - Section 2
 
 **Group**: 12
