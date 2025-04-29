@@ -128,7 +128,7 @@ The attacker successfully gains access to **ubuntu_target's** Apache server runn
 To stop the Chisel Client on **ubuntu_target** or the Chisel Server on **Kali**, use `Ctrl + C`.
 
 ### 2. SSH Tunneling and Remote Access
-*Scenario: An attacker wants to expose the target's internal SSH service to their own machine using reverse port forwarding since direct access is blocked by a firewall.*
+*Scenario: An attacker wants to expose the target's internal SSH service to their own machine using remote port forwarding since direct access is blocked by a firewall.*
 
 **Attacker** | Start the Chisel Server on Kali root-user terminal:
 ```bash
@@ -169,7 +169,7 @@ nmap -sP <internal-net>/24
 
 
 ### 3. SMB Share Discovery
-*Scenario: An attacker wants to identify shared folders on an internal machine that is running an SMB server. Direct access to the internal network is blocked by a firewall so the attacker uses reverse port forwarding to expose the internal SMB port to their own external machine and then retrieves one of the files.*
+*Scenario: An attacker wants to identify shared folders on an internal machine that is running an SMB server. Direct access to the internal network is blocked by a firewall so the attacker uses remote port forwarding to expose the internal SMB port to their own external machine and then retrieves one of the files.*
 
 The Server Message Block (SMB) protocol is a client-server communication protocol used primarily for sharing access to files, printers, and other network resources, originally designed for Windows systems but is now supported on Linux using `Samba`. SMB currently relies on ports `445` and `139`. Attackers may use this to their advantage in hacking and post-exploitation to access shared files, check for misconfigured permissions, exfiltrate data, or find and harvest credentials or other data. 
 
